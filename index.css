@@ -1,0 +1,73 @@
+.outerdiv{
+    background-image: url(./backgroundimg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.innerdiv{
+    background:white;
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+   
+}
+.card {
+    background-color: #f7f9fc;
+    height: 37rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(255, 253, 253, 0.7);
+    color: white;
+  }
+  .halfill{
+      background-color: rgb(121, 151, 235);
+      height: 40vh;
+     width: 50vw;
+  }
+
+  .circle{
+    width: 10vw;
+    height: 20vh;
+    background: white;
+    position: cen;
+   margin-top: 25%;
+    margin-left: 41%;
+    border-radius: 50%  }
+
+    .photo{
+        height: 20vh;
+        width: 10vw;
+        border-radius: 50%;
+    }
+
+    .textcss{
+        color: black;
+    font-family: cursive;
+    text-align: center;
+    display: block;
+    margin-top: 1rem;
+    }
+    .linedraw{
+        border: 1px solid #959393;
+        margin-top: 3rem;
+    }
+
+    .gridcss{
+        display: grid;
+        grid-template-columns: 271px 200px 200px;
+        grid-gap: 50px;
+        color: black;
+        margin-top: 3rem;
+    }
+    .socialtext{
+        display: block;
+        font-weight: bold;
+        margin-left: 1rem;
+    }
+    .marginspan{
+        margin-left: 1rem;
+        color: darkgrey;
+    }
